@@ -1,0 +1,12 @@
+# Build settings
+
+port: 4000
+markdown:  kramdown
+permalink: /:title
+plugins:   [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Site identity — change these to whatever you like
+
+title:       "Krisha"
+description: "Krisha's personal portfolio"
+author:      "Krisha"

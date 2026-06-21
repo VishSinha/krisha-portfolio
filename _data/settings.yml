@@ -1,0 +1,46 @@
+#-------------------------------
+# General Site Settings — the top menu
+
+menu:
+- {name: 'Projects', url: ''}
+- {name: 'Blog',     url: 'blog'}
+- {name: 'About',    url: 'about'}
+- {name: 'Contact',  url: 'contact'}
+
+#-------------------------------
+# Projects Section
+# Each project below needs a matching file in the  projects/  folder.
+# 'url' must match the filename without .md  (example-project -> example-project.md)
+
+projects:
+- {name: 'Example Project', url: 'example-project'}
+
+#-------------------------------
+# Contact Section — your social links (delete any you don't want)
+
+social:
+- {icon: 'instagram', link: 'https://instagram.com/CHANGEME'}
+- {icon: 'github',    link: 'https://github.com/CHANGEME'}
+- {icon: 'linkedin',  link: 'https://linkedin.com/in/CHANGEME'}
+- {icon: 'envelope',  link: 'mailto:CHANGEME@example.com'}
+
+# icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' / 'linkedin'
+#                  'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud'
+
+#-------------------------------
+# SEO Section
+
+seo:
+  description: "Krisha's personal portfolio"
+  rel-author: ''
+  rel-publisher: ''
+
+#-------------------------------
+# Google Analytics — leave blank unless you set one up
+google-analytics-ua: ''
+
+#-------------------------------
+# Disqus comments — off by default
+disqus:
+  comments: false
+  disqus_shortname: ''
