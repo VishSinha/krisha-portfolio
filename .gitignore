@@ -1,0 +1,15 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS
+.DS_Store
+
+# Stray archive (not part of the site)
+files.zip
+
+# Ruby / Bundler (keep Gemfile.lock if you want reproducible builds;
+# it's fine to leave it tracked, so it is not ignored here)
+.bundle/
+vendor/bundle/
